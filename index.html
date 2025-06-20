@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Crypto Rave — DJs en la Blockchain</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .hero {
+      background: linear-gradient(to right, #111, #222);
+      color: white;
+    }
+    .section-title {
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero is-fullheight">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title is-1">🎧 Ravecoin</h1>
+      <p class="subtitle is-4">Conecta DJs y productores en la blockchain</p>
+      <a href="#registro" class="button is-primary is-medium mt-5">Únete al Movimiento</a>
+    </div>
+  </div>
+</section>
+
+<!-- ¿Qué es? -->
+<section class="section" id="que-es">
+  <div class="container">
+    <h2 class="title section-title has-text-centered">¿Qué es Ravecoin?</h2>
+    <div class="content has-text-centered">
+      <p>
+        Una plataforma descentralizada donde <strong>DJs emergentes</strong> pueden subir sus samples,
+        y <strong>productores</strong> pueden descubrir nuevos talentos para sus lineups, evaluándolos
+        mediante un sistema de tokens en la blockchain.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Cómo funciona -->
+<section class="section has-background-light" id="como-funciona">
+  <div class="container">
+    <h2 class="title section-title has-text-centered">¿Cómo Funciona?</h2>
+    <div class="columns is-multiline">
+      <div class="column is-one-third has-text-centered">
+        <span class="icon is-large"><i class="fas fa-upload fa-2x"></i></span>
+        <h3 class="title is-5 mt-3">1. DJs Suben Samples</h3>
+        <p>Los DJs cargan sus pistas en almacenamiento descentralizado como IPFS.</p>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <span class="icon is-large"><i class="fas fa-vote-yea fa-2x"></i></span>
+        <h3 class="title is-5 mt-3">2. Productores Evalúan</h3>
+        <p>Reproducen el audio directamente desde la plataforma y asignan puntajes usando tokens.</p>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        <span class="icon is-large"><i class="fas fa-star fa-2x"></i></span>
+        <h3 class="title is-5 mt-3">3. Booking Descentralizado</h3>
+        <p>Los más votados acceden a eventos reales, sin intermediarios, 100% blockchain.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tecnologías -->
+<section class="section" id="tecnologia">
+  <div class="container">
+    <h2 class="title section-title has-text-centered">Tecnologías Utilizadas</h2>
+    <div class="columns is-multiline has-text-centered">
+      <div class="column is-one-quarter">
+        <span class="icon is-large"><i class="fas fa-music fa-2x"></i></span>
+        <p>IPFS / Arweave</p>
+      </div>
+      <div class="column is-one-quarter">
+        <span class="icon is-large"><i class="fas fa-coins fa-2x"></i></span>
+        <p>Tokens ERC-20 / SPL</p>
+      </div>
+      <div class="column is-one-quarter">
+        <span class="icon is-large"><i class="fas fa-chart-line fa-2x"></i></span>
+        <p>Smart Contracts</p>
+      </div>
+      <div class="column is-one-quarter">
+        <span class="icon is-large"><i class="fas fa-wallet fa-2x"></i></span>
+        <p>MetaMask / Phantom</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Beneficios -->
+<section class="section has-background-light" id="beneficios">
+  <div class="container">
+    <h2 class="title section-title has-text-centered">¿Para Quién Es?</h2>
+    <div class="columns">
+      <div class="column">
+        <h3 class="title is-4 has-text-primary">🎧 DJs</h3>
+        <ul>
+          <li>🔹 Gana visibilidad global</li>
+          <li>🔹 Monetiza tu talento</li>
+          <li>🔹 Entra a eventos reales</li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3 class="title is-4 has-text-info">🔊 Productores</h3>
+        <ul>
+          <li>🔹 Descubre talentos únicos</li>
+          <li>🔹 Vota con tokens</li>
+          <li>🔹 Automatiza el booking</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Registro -->
+<section class="section" id="registro">
+  <div class="container">
+    <h2 class="title section-title has-text-centered">Únete a la Comunidad</h2>
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <form>
+          <div class="field">
+            <label class="label">Nombre / Alias</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Tu nombre artístico">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Correo Electrónico</label>
+            <div class="control">
+              <input class="input" type="email" placeholder="dj@ejemplo.com">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Wallet (opcional)</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="0x...">
+            </div>
+          </div>
+          <div class="control mt-4">
+            <button class="button is-primary is-fullwidth">Registrarme</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer has-background-dark has-text-light">
+  <div class="content has-text-centered">
+    <p>
+      © 2025 <strong>Crypto Rave</strong>. Todos los derechos reservados.
+    </p>
+    <p>
+      <a class="icon has-text-light" href="#"><i class="fab fa-twitter"></i></a>
+      <a class="icon has-text-light" href="#"><i class="fab fa-instagram"></i></a>
+      <a class="icon has-text-light" href="#"><i class="fab fa-telegram"></i></a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
